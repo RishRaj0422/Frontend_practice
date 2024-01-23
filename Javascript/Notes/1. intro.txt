@@ -1,0 +1,60 @@
+console.log("Rishab")
+Run - Node app.js
+Data Types -
+Object: Represents a collection of key-value pairs.
+Array: Represents an ordered list of values.
+Function: Represents a reusable block of code.
+let person = { name: 'John', age: 25 };             // Object
+let fruits = ['apple', 'banana', 'orange'];         // Array
+let greet = function() { console.log('Hello!'); };  // Function
+
+Arithematic -
+let x = 10;
+let y = 5;
+
+let addition = x + y;        // 15
+let subtraction = x - y;     // 5
+let multiplication = x * y;  // 50
+let division = x / y;        // 2
+let modulo = x % y;          // 0
+let increment = ++x;         // 11
+let decrement = --y;         // 4
+
+console.log(addition);
+console.log(subtraction);
+console.log(multiplication);
+console.log(division);
+console.log(modulo);
+console.log(increment);
+console.log(decrement);
+
+Functions -
+Functions:
+In JavaScript, functions are blocks of code that perform a specific task or a set of tasks. 
+They are reusable and allow you to organize code into logical blocks, 
+making it easier to manage and maintain. Functions can have parameters (input values) and return a value (output) if necessary. 
+They play a crucial role in modularizing code and promoting code reusability.
+
+arrow functions -
+
+const addition = (x, y) => x + y;
+
+console.log(addition(10, 20));
+
+Arrays -
+const fruits = ['apple', 'banana', 'orange'];
+
+console.log(fruits[0]); // Output: 'apple'
+console.log(fruits[1]); // Output: 'banana'
+console.log(fruits[2]); // Output: 'orange'
+
+
+fruits[1] = 'grape'; // Replaces 'banana' with 'grape'
+console.log(fruits); // Output: ['apple', 'grape', 'orange']
+
+fruits.push('pear'); // Adds 'pear' to the end of the array
+fruits.pop();        // Removes the last element ('pear') from the array
+fruits.shift();      // Removes the first element ('apple') from the array
+fruits.unshift('kiwi'); // Adds 'kiwi' to the beginning of the array
+console.log(fruits);
+

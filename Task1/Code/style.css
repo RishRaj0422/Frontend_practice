@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige !important;
+  }
+  
+  .navbar {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #042543e8;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  .round {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    /* z-index: 10; */
+    border-radius: 10px;
+    border: none;
+    background: #000; /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+    margin-left: 135px;
+}
+.settings img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-left: 12px;
+}
+  .mlogo img{
+    width: 44px;
+    height: 35px;
+    object-fit: cover;
+  }
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .ulclass{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 400px;
+  }
+  .Frame-20550 {
+    width: 1000px;
+    height: 902px;
+    margin: 49px 486.8px 35px 288.2px;
+    padding: 20px 30.2px 112px 29.8px;
+    border-radius: 13px;
+    border: solid 1px #e4e4e4;
+    background-color: #fff;
+  }
+  .Topictitle {
+    margin-bottom:30px;
+  }
+  .Line-162 {
+    width: 950px;
+    height: 1px;
+    flex-grow: 0;
+    background-color: #000;
+  }
+  .autocad {
+    width: 102px;
+    height: 35px;
+    flex-grow: 0;
+    margin: 15px 10px 20px 0;
+    padding: 5px 18px 8px;
+    border-radius: 4px;
+    border: solid 1px #070606;
+    background-color: #fff;
+  }

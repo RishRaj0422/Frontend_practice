@@ -1,0 +1,13 @@
+this keyword -
+arrow functions lexically bind the value of this. 
+It means that the value of this inside an arrow function is based on the surrounding code (the closest non-arrow function).
+
+console.log
+console.error
+console.warning
+cosole.info
+
+variables -
+let - local scope
+var - global scope
+const - constant value
